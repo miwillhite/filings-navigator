@@ -100,6 +100,8 @@ Please fork this repo into a Github repository and share access with the followi
 - [@roguelazer](https://github.com/roguelazer)
 - [@asuratte-instrumentl](https://github.com/asuratte-instrumentl)
 - [@okan-instrumentl](https://github.com/okan-instrumentl)
+- [@bhasty-instrumentl](https://github.com/bhasty-instrumentl)
+- [@bchaney](https://github.com/bchaney)
 
 ## Questions or Issues
 
