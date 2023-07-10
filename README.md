@@ -94,13 +94,8 @@ Please fork this repo into a Github repository and share access with the followi
 
 - [@eyupatis](https://github.com/eyupatis)
 - [@gsinkin-instrumentl](https://github.com/gsinkin-instrumentl)
-- [@furkan-instrumentl](https://github.com/furkan-instrumentl)
-- [@hope-instrumentl](https://github.com/hope-instrumentl)
 - [@instrumentl707](https://github.com/instrumentl707)
 - [@roguelazer](https://github.com/roguelazer)
-- [@asuratte-instrumentl](https://github.com/asuratte-instrumentl)
-- [@okan-instrumentl](https://github.com/okan-instrumentl)
-- [@bhasty-instrumentl](https://github.com/bhasty-instrumentl)
 - [@bchaney](https://github.com/bchaney)
 
 ## Questions or Issues
