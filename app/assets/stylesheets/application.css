@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ .dashboard-container {
+  display: flex;
+  flex-direction: 'row';
+ }
+
+ .filters {
+  padding: 1rem;
+ }
+
+ .results-table {
+  flex-grow: 1;
+  padding: 1rem;
+ }
