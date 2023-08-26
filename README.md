@@ -1,17 +1,41 @@
 # README
 
+## Developer's Notes
+
+Actual coding time I probably spent around 13–14 hours. Some cumulative 2.5ish hours more in thinking while driving 
+and frontend component library research.
+
+I wanted to think about this as if I were designing a series of services that would act as a data pipeline.
+The question I asked myself: How can I design the data intake in a way that could be deployed to the cloud
+as individual services, managed by queues, and ultimately parallelized. I spent most of my time designing
+the backend layer…it's not perfect, but I like the direction it's going in. The client side was cobbled
+together in a mad dash to get something presentable to show.
+
+### Some of the many known issues (IOW "Left-to-do")
+- Resetting select menu filters requires selecting another dataset or refreshing the page
+- Subsequent imports of the same data set will cause dupliates in filings and awards records
+- Error handing is sub optimal
+- Tests…with the import pieces split into single concerns, unit tests would be pretty straightforward.
+
+### Questions...
+  - How do we handle recipients without an EIN?
+  - Is this a one-time import? If not, how often is this ran?
+  - Upon subsequent runs, would we want to handle amendments to returns already stored in the DB?
+
+
 ## Installation
 
 - `bundle install`
+- `yarn`
 
 ## Prepare DB
 
 - `rake db:migrate`
-- **_ TODO _**
+- `rake filings:import`
 
 ## Running the server
 
-- `rails s`
+- `bin/dev`
 
 ### Total time: ~12 hours
 
